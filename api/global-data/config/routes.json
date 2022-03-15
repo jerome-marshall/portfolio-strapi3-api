@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/global-data",
+      "handler": "global-data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/global-data",
+      "handler": "global-data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/global-data",
+      "handler": "global-data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

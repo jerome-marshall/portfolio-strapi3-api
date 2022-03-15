@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_data",
+  "info": {
+    "name": "Global_Data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
