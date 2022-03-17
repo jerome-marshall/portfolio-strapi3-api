@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_page_content_contact_page_cotents",
+  "collectionName": "components_page_content_contact_page_contents",
   "info": {
-    "name": "ContactPageCotent",
-    "icon": "ad"
+    "name": "ContactPageContent",
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {

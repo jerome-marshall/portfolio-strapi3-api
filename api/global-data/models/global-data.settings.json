@@ -27,6 +27,16 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "page-content.hero-page-content",
+        "page-content.about-page-content",
+        "page-content.experience-page-content",
+        "page-content.projects-page-content",
+        "page-content.contact-page-cotent"
+      ]
     }
   }
 }
