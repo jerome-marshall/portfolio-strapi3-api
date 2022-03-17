@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "githubURL": {
+      "type": "string"
+    },
+    "externalURL": {
+      "type": "string"
+    },
+    "techStack": {
+      "collection": "skillset"
+    },
+    "projectFor": {
+      "type": "string"
+    },
+    "personal": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_content_contact_page_cotents",
+  "info": {
+    "name": "ContactPageCotent",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitleIntro": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

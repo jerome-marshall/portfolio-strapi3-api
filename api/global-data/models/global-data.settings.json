@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "global_data",
   "info": {
-    "name": "Global_Data"
+    "name": "Global_Data",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,20 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.socials"
+    },
+    "myImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

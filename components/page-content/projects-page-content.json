@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_content_projects_page_contents",
+  "info": {
+    "name": "ProjectsPageContent",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "projects": {
+      "collection": "projects"
+    }
+  }
+}

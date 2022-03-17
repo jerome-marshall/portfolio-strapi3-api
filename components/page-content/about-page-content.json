@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_content_about_page_contents",
+  "info": {
+    "name": "AboutPageContent",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "skillset": {
+      "collection": "skillset"
+    }
+  }
+}

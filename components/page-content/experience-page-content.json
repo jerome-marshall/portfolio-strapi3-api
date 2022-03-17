@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_content_experience_page_contents",
+  "info": {
+    "name": "ExperiencePageContent",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "jobs": {
+      "collection": "jobs"
+    }
+  }
+}

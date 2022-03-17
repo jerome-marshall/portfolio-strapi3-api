@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Jobs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "doj": {
+      "type": "date"
+    },
+    "range": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "workDescription": {
+      "type": "richtext"
+    }
+  }
+}
