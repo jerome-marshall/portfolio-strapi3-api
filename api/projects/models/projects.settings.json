@@ -31,6 +31,18 @@
     },
     "personal": {
       "type": "boolean"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "projectImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
